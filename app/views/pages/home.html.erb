@@ -1,2 +1,498 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+
+    <!-- Site Wraper -->
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="container header-inner">
+
+            <!-- Logo -->
+                <div class="logo">
+                  <%= link_to root_path do %>
+                  <img src="http://img15.hostingpics.net/pics/645154hermine.png" class="logo-white", alt="Raid de L'Hermine", id="logo-hermine">
+                  <% end %>
+                </div>
+                <!-- End Logo -->
+
+                <!-- Navbar Navigation -->
+                <div class="nav-menu singlepage-nav">
+                    <ul class="nav-menu-inner">
+                        <li>
+                            <a class="" href="#service">L'Aventure</a>
+                        </li>
+                        <li>
+                            <a class="" href="#equipe">Notre Equipe</a>
+                        </li>
+                        <li>
+                            <a class="" href="#soutien">Nous Soutenir</a>
+                        </li>
+                        <li>
+                            <a class="" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- CONTENT --------------------------------------------------------------------------------->
+        <!-- Intro Section -->
+        <section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="http://img15.hostingpics.net/pics/582659Capturedecran20170213a211757.png">
+            <div class="container">
+                <div class="row title">
+                    <h5>Un équipage de l’Europ’Raid :</h5>
+                    <h2 class="h2">LE RAID DE L'HERMINE</h2>
+                </div>
+            </div>
+        </section>
+        <!-- End Intro Section -->
+
+<!-- Blog Post Section -->
+        <section class="ptb ptb-sm-80" id="service">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                  <h3> l’Europ’Raid</h3>
+                  </div>
+                  <div class="col-md-8 col-md-offset-2">
+                  <p class="lead">Un défi sportif réunissant 150 équipages, soit 450 participants âgés de 18 à 25
+                    ans ! </p>
+                    <p class="lead">Du 29 juillet au 20 août 2017, nous devrons trouver notre route dans un terrain de
+                      plus de 10 millions de km2 : l’Europe. </p>
+                      <p class="lead">C’est à bord d’une Peugeot 205, munis d’une carte et d’un carnet de bord, qu’il
+                        nous faudra parcourir plus de 10 000 kilomètres, soit environ 450 kilomètres par
+                        jour. </p>
+                        <p class="lead">Sans assistance, c’est une aventure humaine unique où l’entraide et le
+                          dépassement de soi sont essentiels. </p>
+                </div>
+              </div>
+                <!-- Post Item -->
+                <div class="row container-grid">
+                  <div class="col-md-6 col-sm-6 col-xs-12 nf-item spacing-grid">
+                        <div class="blog-post">
+                            <div class="post-media">
+                                <iframe width="560" height="395" src="https://www.youtube.com/embed/2rMQcmSPB9Q" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 nf-item spacing-grid">
+                        <div class="blog-post">
+                            <div class="post-media">
+                                <img class="item-container" src="https://stockagehelloassoprod.blob.core.windows.net/images/uploads/75151488-ddd8-094d-f89c-567d25b6f94b.jpg" alt="1" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 nf-item spacing-grid">
+                        <div class="blog-post">
+                            <div class="post-media">
+                                <img class="item-container" src="https://www.europraid.fr/wp-content/uploads/2016/09/224-1-1024x683.jpg" alt="1" />
+                            </div>
+                            <div class="post-header">
+                                <h5>Un projet solidaire</h5>
+                            </div>
+                            <div class="post-entry">
+                              <p class="lead">Europ’Raid est un projet solidaire hors du commun ! Pour cette quatrième édition,
+                                chaque équipage devra acheminer 100 kilos de matériel scolaire et sportif dans
+                                des écoles primaires en Bosnie-Herzégovine, Bulgarie et Roumanie, soit
+                                l’équivalent de 15 tonnes sur l’ensemble de l’édition. </p>
+                                <p class="lead">L’objectif est d’apporter aux enfants le nécessaire pour leur éducation. Il nous
+                                  parait essentiel de parler de l’éducation comme une priorité afin de mettre un
+                                  frein à l’ignorance.  </p>
+                                  <p class="lead">Voici une liste non exhaustive de ce que nous pourrions emmener : cahiers,
+                                    feuilles, crayons, gommes, trousses, ciseaux, règles, peinture gouache, pinceaux,
+                                    ballons, cordes à sauter, etc…  </p>
+                                    <p class="lead">En plus de redécouvrir l’Europe, ses patrimoines, son histoire, sa culture, d’aller à
+                                      la rencontre des populations locales, et d’acheminer du matériel scolaire dans les
+                                      écoles, les équipages de la quatrième édition d’Europ’Raid feront escale dans 23
+                                      villes d’Europe partenaires, dont une dizaine sont jumelées avec des villes
+                                      françaises, dans l’objectif de réanimer les liens de solidarité internationale. </p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 nf-item spacing-grid">
+                        <div class="blog-post">
+                            <div class="post-media">
+                                <img class="item-container" src="https://www.europraid.fr/wp-content/uploads/2016/09/207-1-1024x683.jpg" alt="1" />
+                            </div>
+                            <div class="post-header">
+                                <h5>Un évènement culturel</h5>
+                            </div>
+                            <div class="post-entry">
+                              <p class="lead">De l’Ouest à l’Est de l’Europe, l’Europ’Raid est avant tout une immersion dans une
+                                multitude de cultures. </p>
+                                <p class="lead">De la Piazza San Marco de Venise à l’Acropole d’Athènes, en passant par les
+                                  contrées balkaniques, en traversant la Vltava de Prague ou en se perdant le long
+                                  des canaux d’Amsterdam, le Vieux Continent nous offre une aventure culturelle
+                                  inoubliable ! </p>
+                                  <p class="lead">L’Europ’Raid, c’est 20 pays européens, 14 capitales, plus de 100 patrimoines de
+                                    l’UNESCO, et plus de 300 étapes proposées.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- End Post Item -->
+            </div>
+        </section>
+        <!-- End Blog Post Section -->
+
+
+
+
+
+         <!-- About Section -->
+        <section class="ptb ptb-sm-80" id="equipe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Qui Sommes-Nous?</h3>
+                        <br>
+                        <img src="http://img15.hostingpics.net/pics/921159trio.jpg">
+                    </div>
+                    <div class="col-md-6">
+                    <br>
+                    <br>
+                    <br>
+                      <p class="lead">Le raid de l’Hermine est l’association que nous avons créée afin de donner un
+                        cadre légal et ainsi donner vie à notre projet humanitaire et culturel.  </p>
+                        <p class="lead">Elle nous
+                          servira d’interface pour communiquer avec le public et les entreprises et ainsi
+                          réunir les fonds nécessaires au bon déroulement de notre projet.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="pb pb-sm-80">
+            <div class="container">
+                <!--Team Carousel -->
+                <div class="row">
+                    <div class="owl-carousel team-carousel nf-carousel-theme">
+
+                        <div class="item">
+                            <div class="team-item nf-col-padding">
+                                <div class="team-item-img">
+                                    <img src="http://img11.hostingpics.net/pics/151673youenn.jpg" alt="" />
+                                    <div class="team-item-detail">
+                                        <div class="team-item-detail-inner light-color">
+                                            <h5>Youenn PRISER</h5>
+                                            <p>Youenn a 21 ans et est étudiant en 1ère année du programme
+                                              grande école de l’ESC Rennes School of Business. Il est
+                                              passionné par les voyages et le sport. Réaliser cette aventure
+                                              solidaire et européenne représente pour lui l’opportunité de
+                                              lier ses deux passions à un projet ambitieux</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-item-info">
+                                    <h5>Youenn PRISER</h5>
+                                    <p class="">Président</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="team-item nf-col-padding">
+                                <div class="team-item-img">
+                                    <img src="http://img11.hostingpics.net/pics/765900antoine.jpg" alt="" />
+                                    <div class="team-item-detail">
+                                        <div class="team-item-detail-inner light-color">
+                                            <h5>Antoine BERANGER</h5>
+                                            <p>Antoine a 21 ans et est en 3ème année d’école de commerce à
+                                              Telecom Ecole de Management, il aime découvrir de nouvelles
+                                              choses et rencontrer de nouvelles personnes. Européen
+                                              convaincu il croit en la diversité de l’Europe et s’il peut
+                                              apporter sa pierre à l’édifice, il le fera. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-item-info">
+                                    <h5>Antoine BERANGER</h5>
+                                    <p class="">Trésorier</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="team-item nf-col-padding">
+                                <div class="team-item-img">
+                                    <img src="http://img15.hostingpics.net/pics/17418655y3.png" alt="" />
+                                    <div class="team-item-detail">
+                                        <div class="team-item-detail-inner light-color">
+                                            <h5>Alice COTTU</h5>
+                                            <p>Alice a 21 ans et est étudiante en 2ème année de médecine à
+                                              Nantes. Elle adore aider les gens et vivre de nouvelles
+                                              expériences. L’europ’raid lui permettrait de dépasser ses
+                                              limites tout en étant utile. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-item-info">
+                                    <h5>Alice COTTU</h5>
+                                    <p class="">Secrétaire</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Team Carousel --->
+            </div>
+        </section>
+        <!-- End Team -->
+
+
+        <!-- Pricing Table Section -->
+        <section class="ptb ptb-sm-80" id="soutien">
+          <div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h3>Pourquoi Nous Soutenir ?</h3>
+            </div>
+            <div class="spacer-60"></div>
+            <div class="col-md-8 col-md-offset-2">
+              <p class="lead">Augmenter votre visibilité à travers notre page Facebook (plus de 300 likes en 3
+                jours sur notre page), grâce à la page de l’organisme Europ’raid qui compte plus
+                de 20 000 likes, ainsi que notre site internet à venir. </p>
+                <p class="lead">Bénéficier également d’une visibilité dans la presse locale, sur notre véhicule, et
+                  lors de nos évènements</p>
+                  <p class="lead">Obtenir un contact privilégié auprès des étudiants qui sont la majorité de nos
+                    soutiens.</p>
+                    <p class="lead">Alimenter vos sites web et diversifier vos supports de communication à travers un
+                      contenu multimédia que nous vous proposerons (vidéos, podcasts, photos). </p>
+                      <p class="lead">Il ya <strong>plusieurs solutions possibles</strong> pour nous soutenir : </p>
+                      <ul>
+                        <li><p>En faisant un don financier à notre association</p>
+                        </li>
+                        <li><p>- En faisant un don matériel (matériel scolaire, équipements pour la voiture, etc…) </p>
+                        </li>
+                        <li><p>En mobilisant votre réseau</p>
+                        </li>
+                      </ul>
+
+                      <p class="lead">Voici les <strong>offres de partenariats</strong> que nous proposons :</p>
+
+                    </div>
+                    <div class="spacer-60"></div>
+                    <div class="row container ptb">
+                      <div class="col-md-4 mb-30">
+                        <div class="Pricing-box">
+                          <div class="price-title spacing-box">
+                            <h4 style="
+                            color: #F0CCBD;
+                            ">Bronze</h4>
+                          </div>
+                          <div class="pricing-features spacing-grid">
+                            <ul>
+                              <li>Logo de votre entreprise sur notre véhicule</li>
+                              <li>Photo de notre équipage pendant le raid avec mise en avant de votre logo</li>
+                              <li>Mention de votre entreprise sur notre site internet et notre page Facebook</li>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div class="spacing-box">
+                            <div class="price"><span class="price-lg">250 - 499</span><span class="price-sm">€</span></div>
+                          </div>
+                          <hr />
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-30">
+                        <div class="Pricing-box">
+                          <div class="price-title spacing-box">
+                            <h4 style="
+                            color: #ecebeb;
+                            ">Argent</h4>
+                          </div>
+                          <div class="pricing-features spacing-grid">
+                            <ul>
+                              <li>Avantages Bronze</li>
+                              <li> + Mention de votre entreprise lors de nos évènements </li>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div class="spacing-box">
+                            <div class="price"><span class="price-lg">500 - 999</span><span class="price-sm">€</span></div>
+                          </div>
+                          <hr />
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-30">
+                        <div class="Pricing-box">
+                          <div class="price-title spacing-box">
+                            <h4 style="
+                            color: #FCE8BD;
+                            ">Or</h4>
+                          </div>
+                          <div class="pricing-features spacing-grid">
+                            <ul>
+                              <li>Avantages Argent</li>
+                              <li>+ Mise en avant de votre entreprise lors de nos interviews, articles de presse</li>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div class="spacing-box">
+                            <div class="price"><span class="price-lg">+ 1000</span><span class="price-sm">€</span></div>
+                          </div>
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="spacer-30"></div>
+                    <div class="row">
+                      <div class="col-md-8 col-md-offset-2">
+                        <img class="item-container" src="http://img11.hostingpics.net/pics/690534offre.png" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+        <!-- End Pricing Table Section -->
+
+
+        <!-- Client Logos Section -->
+        <section id="client-logos" class="wow fadeIn ptb ptb-sm-80">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>Les partenaires de l'evenement</h3>
+              </div>
+            </div>
+          </div>
+          <div class="spacer-60"></div>
+
+            <div class="container">
+                <div class="owl-carousel client-carousel nf-carousel-theme ">
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="https://www.ca-atlantique-vendee.fr/Vitrine/ObjCommun/DCIV2/img/logo_creditagricole_V16.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                             <img src="http://www.pasca.fr/medias/2013/04/AudenciaNantes.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                             <img src="http://lionsclubs.co/Public/wp-content/uploads/2014/11/logo.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                             <img src="http://static8.viadeo-static.com/TSgLQsHqJea3ZfIBZUwv3FEWxaE=/fit-in/200x200/filters:fill(white)/7bdbfb729b3c43df9575c8795250b7fb/1434476041.jpeg" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                             <img src="http://www.chateau-briace.com/images/charte2015/ChateauDeBriace-blason.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                             <img src="http://www.alcid.org/images/la-roche-sur-yon-logo-2012.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                             <img src="http://www.profacility.be/piclib/ecbp/Seris_logo.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Client Logos Section -->
+
+
+        <!-- Contact Section -->
+        <section class="ptb ptb-sm-80" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h3>Nous contacter</h3>
+                        <p class="lead">Pour plus d’informations ou pour nous soutenir : </p>
+                    </div>
+                </div>
+                <div class="spacer-75"></div>
+                <div class="row">
+                    <div class="col-md-5 contact">
+                        <div class="contact-box-left mb-45">
+                            <div class="contact-icon-left"></div>
+                            <p>
+                                Youenn
+                            </p>
+                            <i class="fa fa-phone left"></i>06.69.63.90.65
+                            <br>
+                            <br>
+                            <p>
+                                Antoine
+                            </p>
+                            <i class="fa fa-phone left"></i>06.78.24.50.17
+                            <br>
+                            <br>
+                            <p>
+                                Alice
+                            </p>
+                            <i class="fa fa-phone left"></i>06.16.67.43.10
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <!-- Contact FORM -->
+                        <form class="contact-form" id="contact" role="form">
+
+                            <!-- IF MAIL SENT SUCCESSFULLY -->
+                            <h6 class="successContent">
+                                <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
+                            </h6>
+                            <!-- END IF MAIL SENT SUCCESSFULLY -->
+
+                            <!-- MAIL SENDING UNSUCCESSFULL -->
+                            <h6 class="errorContent">
+                                <i class="fa fa-exclamation-circle left" style="color: #e1534f;"></i>There was a problem validating the form please check!
+                            </h6>
+                            <!-- END MAIL SENDING UNSUCCESSFULL -->
+
+                            <div class="form-field-wrapper">
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Votre Nom" required>
+                            </div>
+
+                            <div class="form-field-wrapper">
+                                <input class="input-sm form-full" id="form-email" type="email" name="form-email" placeholder="Email" required>
+                            </div>
+
+                            <div class="form-field-wrapper">
+                                <input class="input-sm form-full" id="form-subject" type="text" name="form-subject" placeholder="Sujet">
+                            </div>
+
+                            <div class="form-field-wrapper">
+                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="Votre Message" required></textarea>
+                            </div>
+
+                            <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Envoyer Le Message</button>
+                        </form>
+                        <!-- END Contact FORM -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+
+
+
+
+
+        <!-- End CONTENT ----------------------------------------------------------------------------
+
+        <!-- Scroll Top -->
+        <a class="scroll-top">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+        <!-- End Scroll Top -->
+
+    </div>
+    <!-- Site Wraper End -->
